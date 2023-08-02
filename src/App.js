@@ -18,15 +18,15 @@ function App() {
     {
       title: 'Job Hive',
       description: 'Job hive is a job board platform designed to connect employers to employees.',
-      githubLink: 'https://github.com/username/project1',
-      liveLink:'',
+      githubLink: 'https://github.com/Ermi-B/tech-blog',
+      liveLink:'https://tech-blog-cms-style-f56d1c666556.herokuapp.com/',
       imageUrl:jobHiveImg, 
     },
     {
       title: 'Marvel World',
       description: 'Marvel world enables users to get inormation about their favourite marvel characters.',
-      githubLink: 'https://github.com/username/project2',
-      liveLink:'',
+      githubLink: 'https://github.com/abrand93/Marvel-world',
+      liveLink:'https://abrand93.github.io/Marvel-world/',
       imageUrl: marvelImg, 
     },
     {

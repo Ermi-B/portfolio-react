@@ -1,31 +1,27 @@
-import React from 'react'
-import jobHive from '../assets/job hive shot.JPG'
-import marvel from '../assets/marvel.JPG'
-const Project = () => {
+import React from 'react';
+import { MdOutlineOpenInNew} from 'react-icons/md';
+import {LiaGitAlt} from 'react-icons/lia'
+const Project = ({ title, description, githubLink,liveLink, imageUrl }) => {
   return (
   <>
-    <div className='max-w-[1240px] mx-auto mt-8 md:mt-32 m-4 p-4 flex flex-col md:flex-row justify-start items-center'>
-      <div className='flex flex-wrap justify-center items-center w-full'>
-        <h4 className='w-full font-bold text-2xl'>Projects</h4>
-        <div className='w-1/2 mt-8'>
-          <p>Job Hive : job board</p>
+    <div className='max-w-[1240px] mx-auto m-4 p-4 flex flex-col md:flex-row justify-start items-center'>
+      <div className='flex flex-wrap justify-center w-full  border rounded p-4'>
+        
+        <div className='w-full md:w-1/2 pr-4'>
+          <h5 className='font-bold text-lg mb-4'>{title}</h5>
+          <p>{description}</p>
+          <div className='flex flex-row flex-wrap m-4'>
+          <a href={githubLink}><button className='w-[170px] p-4 px-8 py-2 mb-4 bg-gray-400 rounded mx-2 flex items-center hover:bg-orange-400'>Git hub <LiaGitAlt size={20} className='ml-2'/> </button></a>
+          <a href={liveLink}><button className='w-[170px] p-4 px-8 py-2 mb-4 bg-gray-400 rounded mx-2 flex items-center hover:bg-orange-400'>Live Demo <MdOutlineOpenInNew className='ml-2' /></button></a>
+
         </div>
-        <div className='w-1/2'>
-          <img src={jobHive} alt="/" />
-        </div>
-      </div>      
-    </div>
-    <div className='max-w-[1240px] mx-auto mt-8 md:mt-32 m-4 p-4 flex flex-col md:flex-row justify-start items-center'>
-      <div className='flex flex-wrap justify-center items-center w-full'>
-        <h4 className='w-full font-bold text-2xl'>Projects</h4>
-        <div className='w-1/2 mt-8'>
-          <p>Job Hive : job board</p>
-        </div>
-        <div className='w-1/2'>
-          <img src={marvel} alt="/" />
+          </div>
+        <div className='w-full md:w-1/2'>
+          <img className='rounded' src={imageUrl} alt="/" />
         </div>
       </div>      
     </div>
+ 
   </>
 
     

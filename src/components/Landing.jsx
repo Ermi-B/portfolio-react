@@ -3,14 +3,14 @@ import { AiFillLinkedin, AiFillGithub, AiFillHtml5  } from "react-icons/ai";
 import {DiCss3} from "react-icons/di"
 import {SiJavascript, SiTailwindcss} from "react-icons/si"
 import {FaReact,FaBootstrap} from "react-icons/fa"
-import landingImage from "../assets/photo_2023-07-30_21-37-58.jpg";
+import landingImage from "../assets/img/photo_2023-07-30_21-37-58.jpg";
 
 const Landing = () => {
   return (
    <>
     <div className="max-w-[1240px] mx-auto mt-8 md:mt-32 m-4 p-4 flex flex-col md:flex-row justify-start items-center">
       <div className="flex flex-col md:w-1/2 justify-center items-start md:mr-8">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-wide leading-loose mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-wide leading-loose mb-4 mt-32 md:mt-8">
           Full-Stack Developer
         </h1>
         <p className="md:mr-8">

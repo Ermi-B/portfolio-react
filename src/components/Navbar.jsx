@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import resumeFile from '../assets/files/Resume.pdf'
 const Navbar = () => {
     const [nav, setNav] = useState(true);
-
+    
     const handleNav = () => {
         setNav(!nav);
     };
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">About</li></a>
                 <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Projects</li></a>
                 <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Contact</li></a>
-                <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Resume</li></a>
+                <a href={resumeFile} target="_blank" rel="noopener noreferrer"  download="ErmiyasResume.pdf"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Resume</li></a>
             </ul>
             <div onClick={handleNav} className="md:hidden">
                 {!nav ? <AiOutlineClose size={30} />:<AiOutlineMenu size={30} />}

@@ -15,9 +15,9 @@ const Navbar = () => {
             </h1></a>
             <ul className="hidden md:flex">
                 <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Home</li></a>
-                <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">About</li></a>
-                <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Projects</li></a>
-                <a href="/"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Contact</li></a>
+                <a href="/about"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">About</li></a>
+                <a href="/projects"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Projects</li></a>
+                <a href="/contact"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Contact</li></a>
                 <a href={resumeFile} target="_blank" rel="noopener noreferrer"  download="ErmiyasResume.pdf"><li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">Resume</li></a>
             </ul>
             <div onClick={handleNav} className="md:hidden">

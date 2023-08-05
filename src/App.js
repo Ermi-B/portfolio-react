@@ -59,6 +59,7 @@ function App() {
         </header>
         <div className="content">
           <Routes>
+          <Route path="/portfolio-react" element={<Landing />} />
             <Route path="/" element={<Landing />} />
 
             <Route path="/about" element={<About />} />

@@ -52,7 +52,7 @@ function App() {
     // Add more project objects as needed
   ];
   return (
-    <Router basename="/portfolio-react">
+    <Router>
       <div className="App">
         <header className="App-header">
           <Header />

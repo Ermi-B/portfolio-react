@@ -9,7 +9,7 @@
 - N/A
 ## Credits
 - developed by Ermiyas Bekele
-- used React.js, Tailwind CSS, Flowbite, react-icons, Google-fonts
+- used React.js, Tailwind CSS, Flowbite, react-icons, Google-fonts, gh-pages
 ## Resources
 - Github: https://github.com/Ermi-B/portfolio-react
 - Live demo: https://ermi-b.github.io/portfolio-react/

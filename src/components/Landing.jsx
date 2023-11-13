@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillHtml5  } from "react-icons/ai";
 import {DiCss3} from "react-icons/di"
 import {SiJavascript, SiTailwindcss} from "react-icons/si"
 import {FaReact,FaBootstrap} from "react-icons/fa"
-import landingImage from "../assets/img/photo_2023-07-30_21-37-58.jpg";
+import landingImage from "../assets/img/photo_2023-11-13_09-53-05.jpg";
 
 const Landing = () => {
   return (
@@ -25,7 +25,7 @@ const Landing = () => {
 
       <div className="flex justify-center items-start md:w-1/2 overflow-hidden">
   <img
-    className="w-72 h-72 mt-4 md:w-96 md:h-96 object-cover border rounded-full"
+    className="w-72 h-72 mt-2 md:w-96 md:h-96 object-cover border rounded-full"
     src={landingImage}
     alt="/"
   />

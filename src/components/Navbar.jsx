@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-10 bg-white ">
       <div className="flex justify-between items-center h-20 max-w-[1240px] px-4 mx-auto ">
-        <a href="/">
+        <Link to="/">
           <h1 className="w-full text-4xl font-bold hover:border-b-4 hover:border-orange-400 ">
             ermi.dev
           </h1>
-        </a>
+        </Link>
         <ul className="hidden md:flex">
           <Link to="/">
             <li className="px-4 py-2 hover:border-b font-semibold border-spacing-4 hover:border-orange-400 ">
@@ -58,7 +58,11 @@ const Navbar = () => {
               : "fixed hidden"
           }
         >
-          <h1 className=" w-full text-3xl font-bold m-4 ">ermi.dev</h1>
+          <Link href="/">
+          <h1 className="w-full text-4xl font-bold hover:border-b-4 hover:border-orange-400 ">
+            ermi.dev
+          </h1>
+        </Link>
           <ul className="pt-12 uppercase p-4 transition ease-in-out duration-500">
             <Link to="/">
               

@@ -1,16 +1,16 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     
 <footer class="fixed bottom-0 w-full bg-gray-100 bg-gradient-to-t from-gray-500 to-transparent bg-opacity-80">
     <div class=" w-full  p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
-          <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
+          <div class="mb-6 md:mb-0 flex items-center">
+              <Link to="/" >
                   {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" /> */}
                   <span class="md:ml-16 text-2xl font-semibold whitespace-nowrap">ermi.dev</span>
-              </a>
+              </Link>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
@@ -19,9 +19,7 @@ const Footer = () => {
                   <li class="mb-4">
                           <a href="https://github.com/Ermi-B" class="hover:underline ">Github</a>
                       </li>
-                      <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
-                      </li>
+                      
                   </ul>
               </div>
               <div>

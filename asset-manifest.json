@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.27a377b0.css",
-    "main.js": "/portfolio-react/static/js/main.455f401b.js",
-    "static/media/Resume.pdf": "/portfolio-react/static/media/Resume.79ccdb7f12527a269cd3.pdf",
+    "main.css": "/portfolio-react/static/css/main.9492436b.css",
+    "main.js": "/portfolio-react/static/js/main.d05679a5.js",
     "static/media/marvel.JPG": "/portfolio-react/static/media/marvel.39fdd0e6024f84a0e244.JPG",
     "static/media/acifna.JPG": "/portfolio-react/static/media/acifna.0ade34ce09a3f0cb713a.JPG",
-    "static/media/photo_2023-07-30_21-37-58.jpg": "/portfolio-react/static/media/photo_2023-07-30_21-37-58.086e52b0cf1972a87f99.jpg",
+    "static/media/Resume.pdf": "/portfolio-react/static/media/Resume.5d3ca18c60961ac817c5.pdf",
     "static/media/job hive shot.JPG": "/portfolio-react/static/media/job hive shot.d155fae3fff83202d17b.JPG",
     "static/media/tech4.JPG": "/portfolio-react/static/media/tech4.e975c9bd97f054b9cf36.JPG",
+    "static/media/photo_2023-11-13_09-53-05.jpg": "/portfolio-react/static/media/photo_2023-11-13_09-53-05.f860a8f667f5bd4ca0f9.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.27a377b0.css.map": "/portfolio-react/static/css/main.27a377b0.css.map",
-    "main.455f401b.js.map": "/portfolio-react/static/js/main.455f401b.js.map"
+    "main.9492436b.css.map": "/portfolio-react/static/css/main.9492436b.css.map",
+    "main.d05679a5.js.map": "/portfolio-react/static/js/main.d05679a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a377b0.css",
-    "static/js/main.455f401b.js"
+    "static/css/main.9492436b.css",
+    "static/js/main.d05679a5.js"
   ]
 }
